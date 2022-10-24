@@ -1,0 +1,99 @@
+/*  Its an CSS page "home.css" of home.html page.
+*/
+.mapouter
+{
+	position:relative;
+	text-align:right;
+	height:500px;
+	width:600px;
+}
+.logo
+{
+	margin-top:4%;
+	margin-left:6%;
+	
+	padding-left:2%;
+	float:left;
+	height:auto;
+	width:22%;
+	display:block;
+	background-color:#fcfeff;
+	
+	
+}
+.logo span
+{
+	margin-left:2%;
+	padding-top:1%;
+	padding-left:3%;
+	padding-right:1%;
+	font-size:18px;
+}
+.imp
+{ 
+	font-size:24px;
+	color:rgb(168, 181, 238);
+	
+}
+.contact
+{
+	margin-top:3%;
+	display:inline-block;
+	float:left;
+	margin-left:1%;
+	padding:1%;
+	width:20%;
+	height:auto;
+	background-color:#EAE7E7;
+}
+
+.logo1
+{
+	margin-top:2%;
+	margin-left:1%;
+	padding-top:0%;
+	padding-left:2%;
+	float:left;
+	height:auto;
+	width:50%;
+	display:block;
+	background-color:#fcfeff;
+	display:inline-block;
+}
+.video_m
+{
+	width:50%;
+	display:inline-block;
+	float:left;
+}
+.info
+{
+	font-size:20px;
+	line-height:2;
+}
+.info_opt
+{
+	color:black;
+	font-weight:bold;
+}
+.info_opt:hover
+{
+	background-color:#06C2F7;
+}
+.inline_ul
+{
+	float:left;
+	
+}
+.img_col
+{
+	border:1px solid #C6C7C8;
+}
+.img_col img
+{
+	border-radius:6px 50px 6px 50px ;
+	width:90%;
+	height:310px;
+	padding-top:2%;
+	padding-left:5%;
+}

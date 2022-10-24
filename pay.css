@@ -1,0 +1,45 @@
+#pay_id
+{
+	width:50%;
+	height:auto;
+	float:left;
+}
+#img_O img
+{ 
+	margin-left:13%;
+	margin-top:3%;
+	width:25%;
+	height:350px;
+	float:left;
+}
+#img_O figure
+{
+	margin-top:3%;
+	padding-left:13%;
+}
+#pay_id img
+{
+	width:70%;
+	height:600px;
+	margin-left:15%;
+	padding-left:2%;
+}
+#desc
+{
+	width:50%;
+	height:auto;
+	float:right;
+}
+.comman
+{
+	text-align:center;
+	color:red;
+	padding:5px 12px;
+}
+#inc_dec_button
+{
+	padding:5px 12px;
+	border:2px solid blue;
+	background-color:#000000;
+	color:red;
+}
