@@ -1,0 +1,4 @@
+var com_div=document.getElementById("commandiv");
+com_div.innerHTML='<div><img src="img/logo1.jpg" style="width:10%;float:left;margin-left:40%;" alt="Pharmalogo"><h1 style="text-align:center;float:left;padding-left:05%;">SRI MARUTHI<br/>PHARMA</h1></div><br/><br/><br/><br/><br/><br/><br/><br/><br/>';
+
+document.getElementById("footer1").innerHTML='<div class="author"><address><b><i>Email:<a href="Email:srimaruthipharma@gmail.com">srimaruthipharma@gmail.com</a><br>Mobile number:9876543210<br>Visit us at: pharmaceutical.com<br>#48 78th cross 5th block Banasankari Bangalore<br>Karnataka, India</i></b></address></div>'

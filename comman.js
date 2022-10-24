@@ -1,0 +1,18 @@
+﻿var com_div=document.getElementById("commandiv");
+function logout()
+{
+	window.localStorage.setItem("login","No");
+	alert("You have Successfully Log Out")
+}
+if(localStorage.getItem("login")=="Yes")
+
+{
+	com_div.innerHTML=`<div><img src="img/logo1.jpg" style="width:10%;float:left;margin-left:40%;" alt="Pharmalogo"><h1 style="text-align:center;float:left;padding-left:05%;">SRI MARUTHI<br/>PHARMA</h1></div> <br><br><br><br><br><br><br><br><div id="top_div" ><div class="display"><ul id="option_id" ><li class="option" class="display"><a href="home.html">Home</a></li><li class="option" class="display"><a href="tablet.html">Tablets and Syrups</a></li><div id="down" ><li  class="option" class="display"><a href="#">BabyCare</a></li><div class="dropdown"><ul type="square"><li><a href="Baby_Food.html">Baby Food</a></li><li><a href="Baby_Diapering.html">Diapering</a></li><li><a href="Baby_Personal_Care.html">Baby Personal Care</a></li></ul></div></div><div id="down"><li class="option" class="display"><a href="#">CovidEssentials </a></li><div class="dropdown" ><ul type="square"><li><a href="Covid_Essentials.html">Covid Essentials</a></li></ul></div></div><div id="down" ><li class="option" class="display"><a href="#">PersonalCare</a></li><div class="dropdown"><ul type="square"><li><a href="Skin_Care.html">Skin Care</a></li><li><a href="Hair_Care.html">Hair Care</a></li><li><a href="Oral_Care.html">Oral Care</a></li></ul></div></div><div id="down" ><li class="option" class="display"><a href="#">Profile</a></li><div class="dropdown"><br><div id="profile">'+localStorage.getItem("Fname")+" "+localStorage.getItem("Lname")+'<br><span>'+localStorage.getItem("Username")+'<span></div><ul type="square"><li><a href="home.html" onclick="logout()">Log Out</a></li></ul></div></div>`;
+
+}
+else
+{
+		com_div.innerHTML='<div><img src="img/logo1.jpg" style="width:10%;float:left;margin-left:40%;" alt="Pharmalogo"><h1 style="text-align:center;float:left;padding-left:05%;">SRI MARUTHI<br/>PHARMA</h1></div> <div class="topnav"><div class="search-container"><form action="action_page(1).php"><input type="text" placeholder="Search.." name="search"><button type="submit"><i class="fa fa-search"></i></button></form></div></div><br><br><br><br><br><br><br><br><div id="top_div" ><div class="display"><ul id="option_id" ><li class="option" class="display"><a href="home.html">Home</a></li><li class="option" class="display"><a href="tablet.html">Tablets and Syrups</a></li><div id="down" ><li  class="option" class="display"><a href="#">BabyCare</a></li><div class="dropdown"><ul type="square"><li><a href="Baby_Food.html">Baby Food</a></li><li><a href="Baby_Diapering.html">Diapering</a></li><li><a href="Baby_Personal_Care.html">Baby Personal Care</a></li></ul></div></div><div id="down"><li class="option" class="display"><a href="#">CovidEssentials </a></li><div class="dropdown" ><ul type="square"><li><a href="Covid_Essentials.html">Covid Essentials</a></li></ul></div></div><div id="down" ><li class="option" class="display"><a href="#">PersonalCare</a></li><div class="dropdown"><ul type="square"><li><a href="Skin_Care.html">Skin Care</a></li><li><a href="Hair_Care.html">Hair Care</a></li><li><a href="Oral_Care.html">Oral Care</a></li></ul></div></div><li class="option" class="display" id="ppp"><a href="login.html">Login</a></li></ul></div></div>';
+}
+
+document.getElementById("footer1").innerHTML='<div class="author"><address><i><b>Email: <a href="Email:srimaruhtipharma@gmail.com">srimaruthipharma@gmail.com</a><br>Mobile number: 9876543210<br>Visit us at: Pharmaceutical.com<br>#48 78th cross 5th block Banasankari Bangalore<br>Karnataka,India</b></i></address></div>'
