@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Pharmaceutical website</title>
+		<link rel="stylesheet" type="text/css" href="css/man.css">
+		<link rel="stylesheet" type="text/css" href="css/login.css">
+		<link rel="stylesheet" type="text/css" href="css/pay.css"/>	
+		
+			
+	</head>
+	<body style="background-color:rgb(14, 14, 14)" onload="addressload()" >
+		<div id="manwidth" class="overflow_auto">
+			<div id="commandiv">
+				<h1 style="text-align:center;float:left;padding-left:3%;">Sri Maruthi Pharma</h1>
+			</div>
+			<hr>
+			
+			<h2 style="text-align:center"><b><i><u>Order</u></i></b></h2><br/>
+			<div id="img_O">
+			</div>
+			<form  autocomplete="on" name="persanalform" method="post" style="overflow:auto;">
+            <fieldset id="f1">
+                <legend>Personal information</legend> 	
+                <table align="center" cellpadding="5px" cellspacing="5px">
+                    <tr>
+	                    <td>Country</td>
+                        <td><input type="text" name="Country" placeholder="Enter Country" autofocus required><br>
+						<span style="color:red" class="pass_class"></span></td>
+                    </tr>
+					
+                    <tr>
+	                    <td>State</td>
+                        <td><input type="text" name="State" placeholder="Enter State"  required> <br> 
+						<span style="color:red" class="pass_class"></span></td>
+						
+                    </tr>
+					<tr>
+	                    <td>District</td>
+                        <td><input type="text" name="District" placeholder="Enter District" required><br>
+						<span style="color:red" class="pass_class"></span></td>
+                    </tr>
+					<tr>
+	                    <td>Tehsil</td>
+                        <td><input type="text" name="Tehsil" placeholder="Enter Tehsil" pattern="^[a-z A-Z]+$" title="Only use ALPHABETS" required><br>
+						<span style="color:red" class="pass_class"></span></td></td>
+                    </tr>
+					<tr>
+	                    <td>Address</td>
+                        <td id="name"><textarea type="text" rows="10" cols="30" name="Address" placeholder="Enter Address" pattern="^[a-z A-Z]+$" title="Only use ALPHABETS" autofocus required ></textarea><br>
+						<span style="color:red" class="pass_class"></span></td></td>
+                    </tr>
+					<tr>
+	                    <td>Pin Code</td>
+                        <td><input type="number" name="PinCode" placeholder="Enter Pin Code" required><br>
+						<span style="color:red" class="pass_class"></span></td>
+                    </tr>
+                    
+                    <tr>
+                        <td><button type="button" onclick="buy_details();">Next</td>
+		                <td><button type="reset">Reset</td>
+                    </tr>
+              	</table>
+            </fieldset>
+        </form>
+			</form>
+			<div id="footer1">
+			</div>
+		</div>
+		<script type="text/javascript" src="js/comman1.js"></script>
+		<script type="text/javascript" src="js/item_pay.js"></script>
+	</body>
+</html>

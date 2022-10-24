@@ -1,0 +1,56 @@
+﻿<!DOCTYPR html>
+<html>
+	<head>
+		<title>Pharmaceutical website</title>
+		<link rel="stylesheet" type="text/css" href="css/man.css"/>
+		<link rel="stylesheet" type="text/css" href="css/pay.css"/>
+    </head>
+	<body onload="val()">
+	<div id="commandiv">
+				<h1 style="text-align:center;float:left;padding-left:3%;">Sri Maruthi Pharma</h1>
+			</div>
+			
+	<div id="pay_id">
+		
+	</div>
+	<div id="desc">
+		<h1><u>Description</u></h1>
+	</div>
+	<hr/>
+	<div>
+		<h2><u>Number of Item</u></h2>
+		<div>
+			<button onclick="add_sub('-')" id="inc_dec_button"><</button>
+			<input  id="no_of_item" class="comman" value="1" size="1px" readonly >
+			<button onclick="add_sub('+')" id="inc_dec_button">></button><br><br>
+			<table cellspacing="20px" cellpadding="5px">
+				<tr>
+					<td><span><b>Price </b></span></td>
+					<td><b><span id="no_of_item1" class="comman"></b></span></td>
+				</tr>
+				<tr>
+					<td><span><b>Number of Items </b></span></td>
+					<td align="center"><b><span id="no_of_item2" class="comman">1</span></b></td>
+				</tr>
+				<tr>
+					<td><span><b>Total Price </b></span></td>
+					<td><b><span id="total_price" class="comman"></span></b></td>
+				</tr>
+				<tr>
+					<!--<td><a href="Add_to_card.html"><button>Add to card</button></a></td>-->
+					<td colspan="2" align="center"><button onclick="buy_next()">Buy</button></a></td>
+				</tr>
+				
+			</table>
+		</div>
+		<div>
+			
+		</div>
+	</div>
+	<div id="footer1">
+	</div>
+	<script type="text/javascript" src="js/comman.js"></script>
+	<script type="text/javascript" src="js/item_pay.js"></script>
+	</body>
+</html>
+	

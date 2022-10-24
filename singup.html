@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Pharmaceutical website</title>
+		<link rel="stylesheet" type="text/css" href="css/man.css">
+		<link rel="stylesheet" type="text/css" href="css/login.css">
+	</head>
+	<body style="background-color:rgb(6, 6, 6)">
+		<div id="manwidth" class="overflow_auto">
+			<div id="commandiv">
+				<h1 style="text-align:center;float:left;padding-left:3%;">Sri Maruthi Pharma </h1>
+			</div>
+			<hr>
+			
+			<h2 style="text-align:center"><b><i><u>SingUp Page</u></i></b></h2><br/>
+			<form  autocomplete="on" name="persanalform" method="post" style="overflow:auto;">
+            <fieldset id="f1">
+                <legend>Personal information</legend> 	
+                <table align="center" cellpadding="5px" cellspacing="15px">
+	                <tr>
+	                    <td>First Name</td>
+                        <td id="name"><input type="text" name="Fname" placeholder="Enter First Name" pattern="^[a-z A-Z]+$" title="Only use ALPHABETS" autofocus required ><br>
+						<span style="color:red" class="pass_class"></span></td></td>
+                    </tr>
+                    <tr>
+	                    <td>Last Lame</td>
+                        <td><input type="text" name="Lname" placeholder="Enter Last Name" pattern="^[a-z A-Z]+$" title="Only use ALPHABETS" required><br>
+						<span style="color:red" class="pass_class"></span></td></td>
+                    </tr>
+                    <tr>
+	                    <td>Username</td>
+                        <td><input type="text" name="Username" placeholder="Enter Username" required><br>
+						<span style="color:red" class="pass_class"></span></td>
+                    </tr>
+                    <tr>
+	                    <td>Password</td>
+                        <td><input type="password" name="Pass" placeholder="Enter password"  required> <br> 
+						<span style="color:red" class="pass_class"></span></td>
+						
+                    </tr>
+                    <tr>
+	                <tr>
+	                    <td>Reenter Password</td>
+                        <td><input type="password" name="RPass" placeholder="Reenter Password" required><br>
+						<span style="color:red" class="pass_class"></span></td>
+                    </tr>
+                    <tr>
+	                    <td>Gender</td>
+                        <td>
+						    <label><input type="radio" value="Male" name="gender" checked >Male</label>
+                            <label><input type="radio" value="Female" name="gender">Female</label>
+                            <label><input type="radio" value="Other" name="gender">Other</label>
+						</td>
+                    </tr>
+                    <tr>
+	                    <td>DOB</td>
+                        <td><input type="date" name="Dob" min="1900-01-01" max="2020-02-04"required><br>
+						<span style="color:red" class="pass_class"></span></td>
+                    </tr>
+                    <tr>
+                        <td><button type="button" onclick="singup();">submit</td>
+		                <td><button type="reset">Reset</td>
+                    </tr>
+					<tr>
+                        <td colspan="2" align="center"><a href="login.html">Log in page</a></td>
+                    </tr>
+              	</table>
+            </fieldset>
+        </form>
+			</form>
+			<div id="footer1">
+			</div>
+		</div>
+		<script type="text/javascript" src="js/comman1.js"></script>
+		<script type="text/javascript" src="js/singup_details.js"></script>
+	</body>
+</html>
